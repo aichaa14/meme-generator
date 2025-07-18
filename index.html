@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -35,3 +36,42 @@
 </body>
 </html>
 
+=======
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>meme-generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>meme-generator</h1>
+
+    <input type="file" id="imageInput" accept="image/*" />
+    <input type="text" id="topText" placeholder="Texte en haut" />
+    <input type="text" id="bottomText" placeholder="Texte en bas" />
+    
+    <canvas id="memeCanvas" width="500" height="500"></canvas>
+
+    <div class="buttons">
+      <button id="downloadBtn">Télécharger</button>
+    </div>
+
+    <!-- 🔗 Boutons de partage -->
+    <div id="shareButtons" style="margin-top: 10px;">
+      <button id="shareFacebook">Partager sur Facebook</button>
+      <button id="shareTwitter">Partager sur Twitter</button>
+      <button id="shareWhatsApp">Partager sur WhatsApp</button>
+    </div>
+
+    <h2>Galerie</h2>
+    <div id="gallery"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+>>>>>>> b8fbdfd0874a21b47f3b1952cf13b12c7670aedd
